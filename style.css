@@ -1,1 +1,56 @@
-.
+@font-face {
+  font-family: "Metropolis";
+  src: url("Fonts/Metropolis/Metropolis-Regular.otf");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("Fonts/Metropolis/Metropolis-Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("Fonts/Metropolis/Metropolis-Black.otf");
+  font-weight: black;
+}
+
+
+.grid-nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  padding: 1em 2em;
+  align-items: center;
+  background-color: #fcf8f5;
+}
+
+#nav-logo {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+#shopping-cart {
+  display: block;
+  width: 20px;
+}
+
+.borde-carro {
+  width: 20px;
+  height: 20px;
+  float: right;
+  border: 2px solid #00c87f;
+  padding: 8px;
+  border-radius: 100%;
+}
+
+.menu a {
+  font-family: Metropolis;
+  font-weight: bold;
+  display: block;
+  float: left;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #233236;
+}
