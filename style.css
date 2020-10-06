@@ -9,10 +9,21 @@
   font-weight: bold;
 }
 
+
 @font-face {
-  font-family: "Metropolis";
-  src: url("Fonts/Metropolis/Metropolis-Black.otf");
-  font-weight: black;
+  font-family: "The-Historia";
+  src: url("Fonts/The-Historia/The-Historia.ttf");
+}
+
+@font-face {
+  font-family: "Airwaves";
+  src: url("Fonts/Airwaves/Airwaves-Regular.otf");
+}
+
+@font-face {
+  font-family: "Airwaves";
+  src: url("Fonts/Airwaves/Airwaves-Oblique.of");
+  font-weight: oblique;
 }
 
 
@@ -53,4 +64,47 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #233236;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-items: center;
+  align-items: start;
+  background: url("Fotos/churrasco-casa-verde-web.png") center;
+  background-size: cover;
+  padding: 16em 8em;
+}
+
+.slogan {
+  text-align: center;
+}
+
+.slogan h1 {
+  font-family: Airwaves;
+  font-weight: oblique;
+  font-size: 72px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  word-spacing: 10px;
+  color: white;
+  text-shadow: 3px 3px #233236;
+}
+
+article a {
+  display: inline-block;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  border-radius: 3em;
+  font-family: Metropolis;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0.75em 1em;
+  color: white;
+  text-align: center;
+  background: rgb(0,200,127);
+  background: linear-gradient(90deg, rgba(0,200,127,1) 0%, rgba(0,144,118,1) 35%);
+  margin-top: 4em;
+  box-shadow: 5px 5px 15px 1px #233236;
+
 }
